@@ -92,11 +92,11 @@ public class regdoctorPageObject extends PageObject {
         liagregarDoctor.click();
     }
     public void RegDoctor() {
-        lblingresenombreDoc.sendKeys("Carlos");
-        lblingreseapellidoDoc.sendKeys("Puerta");
-        lbltelephoneDoc.sendKeys("223222");
-        cbmtipoIdentidadDoc.selectByVisibleText("Cédula de ciudadanía");
-        slctDocumentoDoc.sendKeys("1011333774");
+        //lblingresenombreDoc.sendKeys("Carlos");
+        //lblingreseapellidoDoc.sendKeys("Puerta");
+        //lbltelephoneDoc.sendKeys("223222");
+        //cbmtipoIdentidadDoc.selectByVisibleText("Cédula de ciudadanía");
+        //slctDocumentoDoc.sendKeys("1011333774");
         btnGuardarDoc.click();
     }
     public void VerificaDoc() {
@@ -149,5 +149,30 @@ public class regdoctorPageObject extends PageObject {
         String strMensaje =lblGuardadoDoc.getText();
         assertThat (strMensaje, containsString(labelv));
         lblinicio.click();
+    }
+
+    public void agregarNombre(String nombre) {
+        lblingresenombrePac.sendKeys(nombre);
+
+    }
+
+    public void agregarApellido(String apellido) {
+        lblingreseapellidoPac.sendKeys(apellido);
+
+    }
+
+    public void agregarTelefono(String telefono) {
+        lbltelephonePac.sendKeys(telefono);
+
+    }
+
+    public void agregarIdentidadDoc(String tipoidentidad) {
+        cbmtipoIdentidadPac.selectByVisibleText(tipoidentidad);
+
+    }
+
+
+    public void ingresarDocumentoDoc(String documentoidentidad) {
+        slctDocumentoPac.sendKeys(documentoidentidad);
     }
 }

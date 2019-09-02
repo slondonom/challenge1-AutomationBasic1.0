@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6512cd21-7b2e-4319-b938-ca31a0daae24" name="Default Changelist" comment="">
+    <list default="true" id="6512cd21-7b2e-4319-b938-ca31a0daae24" name="Default Changelist" comment="actualizacion">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Datadriven/badeDatos.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/RunnerTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/RunnerTags.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/definition/regdoctorDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/definition/regdoctorDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/pageobjects/regdoctorPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/pageobjects/regdoctorPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/steps/regdoctorSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/steps/regdoctorSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/regdoctor.Feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/regdoctor.Feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/SERENITY-JUNIT-registrar-una-solicutud-medica-a-través-del-sistema-de-admin-hospitales_comma_-se-debe-validar-que-haya-doctor_realizar-el-registro-de-un-doctor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/SERENITY-JUNIT-registrar-una-solicutud-medica-a-través-del-sistema-de-admin-hospitales_comma_-se-debe-validar-que-haya-doctor_realizar-el-registro-de-un-doctor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/registrar-una-solicutud-medica-a-través-del-sistema-de-admin-hospitales_comma_-se-debe-validar-que-haya-doctor_realizar-el-registro-de-un-doctor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/registrar-una-solicutud-medica-a-través-del-sistema-de-admin-hospitales_comma_-se-debe-validar-que-haya-doctor_realizar-el-registro-de-un-doctor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/registrar-una-solicutud-medica-a-través-del-sistema-de-admin-hospitales_comma_-se-debe-validar-que-haya-doctor_realizar-el-registro-de-un-doctor.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/registrar-una-solicutud-medica-a-través-del-sistema-de-admin-hospitales_comma_-se-debe-validar-que-haya-doctor_realizar-el-registro-de-un-doctor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/registrar-una-solicutud-medica-a-través-del-sistema-de-admin-hospitales_comma_-se-debe-validar-que-haya-doctor_realizar-el-registro-de-un-doctor_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/registrar-una-solicutud-medica-a-través-del-sistema-de-admin-hospitales_comma_-se-debe-validar-que-haya-doctor_realizar-el-registro-de-un-doctor_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/regdoctor.Feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/regdoctor.Feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/RunnerTags.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/RunnerTags.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/definition/regdoctorDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/definition/regdoctorDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/pageobjects/regdoctorPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/pageobjects/regdoctorPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/steps/regdoctorSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/steps/regdoctorSteps.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +68,24 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.RunnerTags">
+    <configuration name="Feature: regdoctor" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/regdoctor.Feature" />
+      <option name="GLUE" value="net.serenitybdd.cucumber.actors com.choucair.formacion.definition" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="com.choucair.formacion" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: regdoctor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Realizar el Registro de un Doctor" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Features/regdoctor.Feature" />
@@ -122,6 +157,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunnerTags" />
+        <item itemvalue="Cucumber java.Feature: regdoctor" />
         <item itemvalue="Cucumber java.Scenario: Realizar el Registro de un Paciente" />
         <item itemvalue="JUnit.RunnerFeatures" />
         <item itemvalue="Cucumber java.Scenario: Realizar el Registro de un Doctor" />
@@ -153,5 +189,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="actualizacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="actualizacion" />
   </component>
 </project>

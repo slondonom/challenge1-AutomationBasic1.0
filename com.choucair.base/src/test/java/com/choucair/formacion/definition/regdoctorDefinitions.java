@@ -17,10 +17,15 @@ public class regdoctorDefinitions {
         RegdoctorSteps.ingresaPagdoc();
         // Write code here that turns the phrase above into concrete actions
     }
-    @Cuando("^el realiza el registro del mismo en el aplicativo de Administración de Hospitales$")
-    public void el_realiza_el_registro_del_mismo_en_el_aplicativo_de_Administración_de_Hospitales()  {
+    @Cuando("^el realiza el registro del mismo en el aplicativo de Administración de Hospitales \"([^\"]*)\"$")
+    public void el_realiza_el_registro_del_mismo_en_el_aplicativo_de_Administración_de_Hospitales(String id)  {
 
-        RegdoctorSteps.RegDoctor();
+       // RegdoctorSteps.RegDoctor();
+        try {
+            RegdoctorSteps.llenarFormularioDatosPersonales(id);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
         //RegdoctorSteps.RegPaciente();
     }
     @Entonces("^el verifica que se presente en pantalla el mensaje Datos guardados correctamente$")

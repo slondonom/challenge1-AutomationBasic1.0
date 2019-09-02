@@ -17,6 +17,7 @@
         <serenity.cucumber.version>1.1.36</serenity.cucumber.version> <!--  https://bintray.com/serenity/maven/serenity-cucumber/ -->
   </properties>
 
+
   <!-- Define the Bintray repos for convenience -->
     <repositories>
         <repository>
@@ -34,6 +35,11 @@
     </pluginRepositories>
 
     <dependencies>
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>4.0</version>
+        </dependency>
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-core</artifactId>
@@ -97,8 +103,10 @@
 							<showDeprecation>true</showDeprecation>
 							<showWarnings>true</showWarnings>
 							<compilerArguments>
-								<source>${maven.compiler.target}</source>
-								<target>${maven.compiler.source}</target>
+								<!--suppress UnresolvedMavenProperty -->
+                                <source>${maven.compiler.target}</source>
+								<!--suppress UnresolvedMavenProperty -->
+                                <target>${maven.compiler.source}</target>
 							</compilerArguments>
 						</configuration>
 					</execution>
@@ -108,8 +116,10 @@
 							<showDeprecation>true</showDeprecation>
 							<showWarnings>true</showWarnings>
 							<compilerArguments>
-								<source>${maven.compiler.testTarget}</source>
-								<target>${maven.compiler.testSource}</target>
+								<!--suppress UnresolvedMavenProperty -->
+                                <source>${maven.compiler.testTarget}</source>
+								<!--suppress UnresolvedMavenProperty -->
+                                <target>${maven.compiler.testSource}</target>
 							</compilerArguments>
 						</configuration>
 					</execution>
@@ -141,7 +151,8 @@
 					</includes>
 
 					<systemProperties>
-						<webdriver.driver>${webdriver.driver}</webdriver.driver>
+						<!--suppress UnresolvedMavenProperty -->
+                        <webdriver.driver>${webdriver.driver}</webdriver.driver>
 					</systemProperties>
 
 				</configuration>
