@@ -1,25 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6512cd21-7b2e-4319-b938-ca31a0daae24" name="Default Changelist" comment="actualizacion">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Datadriven/badeDatos.csv" afterDir="false" />
+    <list default="true" id="6512cd21-7b2e-4319-b938-ca31a0daae24" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/RunnerTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/RunnerTags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/definition/regdoctorDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/definition/regdoctorDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/pageobjects/regdoctorPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/pageobjects/regdoctorPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/steps/regdoctorSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/choucair/formacion/steps/regdoctorSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/regdoctor.Feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/regdoctor.Feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/SERENITY-JUNIT-registrar-una-solicutud-medica-a-través-del-sistema-de-admin-hospitales_comma_-se-debe-validar-que-haya-doctor_realizar-el-registro-de-un-doctor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/SERENITY-JUNIT-registrar-una-solicutud-medica-a-través-del-sistema-de-admin-hospitales_comma_-se-debe-validar-que-haya-doctor_realizar-el-registro-de-un-doctor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/registrar-una-solicutud-medica-a-través-del-sistema-de-admin-hospitales_comma_-se-debe-validar-que-haya-doctor_realizar-el-registro-de-un-doctor.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/registrar-una-solicutud-medica-a-través-del-sistema-de-admin-hospitales_comma_-se-debe-validar-que-haya-doctor_realizar-el-registro-de-un-doctor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/registrar-una-solicutud-medica-a-través-del-sistema-de-admin-hospitales_comma_-se-debe-validar-que-haya-doctor_realizar-el-registro-de-un-doctor.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/registrar-una-solicutud-medica-a-través-del-sistema-de-admin-hospitales_comma_-se-debe-validar-que-haya-doctor_realizar-el-registro-de-un-doctor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/registrar-una-solicutud-medica-a-través-del-sistema-de-admin-hospitales_comma_-se-debe-validar-que-haya-doctor_realizar-el-registro-de-un-doctor_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/evidencia/21022018_C03/registrar-una-solicutud-medica-a-través-del-sistema-de-admin-hospitales_comma_-se-debe-validar-que-haya-doctor_realizar-el-registro-de-un-doctor_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Features/regdoctor.Feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Features/regdoctor.Feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/RunnerTags.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/RunnerTags.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/definition/regdoctorDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/definition/regdoctorDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/pageobjects/regdoctorPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/pageobjects/regdoctorPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/steps/regdoctorSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/choucair/formacion/steps/regdoctorSteps.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -175,6 +158,14 @@
       <option name="presentableId" value="Default" />
       <updated>1566353343557</updated>
     </task>
+    <task id="LOCAL-00001" summary="actualizacion">
+      <created>1567461458061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567461458061</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
