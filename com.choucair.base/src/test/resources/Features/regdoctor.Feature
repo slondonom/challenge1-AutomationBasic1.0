@@ -5,6 +5,7 @@ Característica: registrar una solicutud medica a través del sistema de admin h
   @RegistroDr
   Escenario: Realizar el Registro de un Doctor
     Dado que Carlos necesita registrar un nuevo doctor
+    | 1 | ingresardatos|
     Cuando el realiza el registro del mismo en el aplicativo de Administración de Hospitales "001"
     Entonces el verifica que se presente en pantalla el mensaje Datos guardados correctamente
 
